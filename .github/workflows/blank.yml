@@ -33,4 +33,4 @@ jobs:
 
       - name: "Mostrando variables por defecto"
         run:
-          echo "Evento ${{toJSON(git.event)}}"
+          echo "Evento ${{toJSON(github.event)}}"
